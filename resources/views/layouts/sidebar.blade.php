@@ -50,14 +50,12 @@
                     </a>
                 </li>
             @endcan
-            @can('permission-list')
-                <li class="slide">
-                    <a class="side-menu__item" href="{{ route('permission.index') }}">
-                        <i class="feather feather-message-square sidemenu_icon"></i>
-                        <span class="side-menu__label">Permission</span>
-                    </a>
-                </li>
-            @endcan
+            <li class="slide">
+                <a class="side-menu__item" href="{{ route('permission.index') }}">
+                    <i class="feather feather-message-square sidemenu_icon"></i>
+                    <span class="side-menu__label">Permission</span>
+                </a>
+            </li>
         </ul>
     </div>
 </aside>
