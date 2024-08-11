@@ -43,6 +43,7 @@
                 </li>
             @endcan
             @can('role-list')
+
                 <li class="slide">
                     <a class="side-menu__item" href="{{ route('roles.index') }}">
                         <i class="feather feather-message-square sidemenu_icon"></i>
